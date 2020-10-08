@@ -10,7 +10,7 @@ int factorial(int n)
 int main()
 {
     int n;
-    cout << "Enter a positive integer: ";
+    cout << "Enter a positive integer: "<<endl;
     cin >> n;
     cout << "Factorial of " << n << " = " << factorial(n)<<endl;
     return 0;
